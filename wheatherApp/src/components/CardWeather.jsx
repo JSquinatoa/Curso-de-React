@@ -1,12 +1,14 @@
 import React from 'react'
 import axios from 'axios'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useRef } from 'react'
 import './styles/CardWeather.css'
 
-const CardWeather = ({cityData, APIKEY}) => {
+const CardWeather = ({cityData, APIKEY, setCityData, setCity}) => {
 
     const [temp, setTemp] = useState(null)
     const [isCelsius, setIsCelsius] = useState(true)
+
+    const inputCity = useRef()
 
     useEffect(() => {
 
@@ -21,6 +23,17 @@ const CardWeather = ({cityData, APIKEY}) => {
     
     function changedTemp() {
         setIsCelsius(!isCelsius)        
+    }
+
+    const searchCity = (event) =>{
+        event.preventDefault()
+        setCity(inputCity.current.value)
+
+        axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${inputCity.current.value}&appid=${APIKEY}`)
+        .then(res => {
+            setCityData(res.data)
+        })
+        .catch(err => console.log(err))
     }
 
     if(!temp){
@@ -46,6 +59,11 @@ const CardWeather = ({cityData, APIKEY}) => {
                 <li className='changetemp' onClick={changedTemp}> cambiar la Medida </li>
             </ul>
         </div>
+
+        <form onSubmit={searchCity}>
+            <input ref={inputCity} type="text" placeholder='Ingrese una ciudad'/>
+            <button type='submit'>Constultar</button>
+        </form>
     </article>
   )
 }

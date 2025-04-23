@@ -9,3 +9,44 @@
     align-items: center;
     height: 100vh;
 }
+
+.bgestilo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.default-background{
+    background-image: url("https://th.bing.com/th/id/OIP.60Af-irvdlDLB52IU3_CXQHaEK?w=1536&h=864&rs=1&pid=ImgDetMain");   
+}
+
+.clear-sky{
+    background-image: url("https://th.bing.com/th/id/OIP.YND4KF-gMzqrpR4QX7WexQHaEK?rs=1&pid=ImgDetMain");
+}
+
+.light-rain{
+    background-image: url("https://th.bing.com/th/id/OIP.ZmOo7imWSV7CFgzISsnOvQHaEJ?rs=1&pid=ImgDetMain");
+}
+
+.few-clouds{
+    background-image: url(https://th.bing.com/th/id/OIP.tjUtXIgi4S6tA_emnON2VQHaE8?rs=1&pid=ImgDetMain);
+}
+
+.scattered-clouds{
+    background-image: url(https://th.bing.com/th/id/OIP.eRTq0wSonDxmJfIGNenjZwHaE8?rs=1&pid=ImgDetMain);
+}
+
+.broken-clouds{
+    background-image: url("https://th.bing.com/th/id/OIP.1sI3WdBagDbhGYDDif2VMAHaE8?rs=1&pid=ImgDetMain");
+}
+
+.shower-rain{
+    background-image: url("https://th.bing.com/th/id/OIP.CPxhin180ZIBDbjaCagtMgHaEK?rs=1&pid=ImgDetMain");
+}
+
+.ran{
+    background-image: url("https://scitechdaily.com/images/Rainy-Weather.jpg");
+}
+
+
+
