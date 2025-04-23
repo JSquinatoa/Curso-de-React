@@ -1,0 +1,79 @@
+.card_weather{
+    background-color: lightgray;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.card_weathertitle{
+    text-transform: uppercase;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    padding-bottom: 0.3rem;
+}
+
+.card_weatherdescription{
+    font-style: italic;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding-bottom: 0.3rem;
+}
+.card_weathertemp{
+    padding-bottom: 0.3rem;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+}
+
+.imgicon{
+    width: 50%;
+    border: 2px dotted black;
+
+}
+
+.containerinfo{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.iteminfo{
+    padding-bottom: 0.5rem;
+    font-size: 1.3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.iteminfodata{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.changetemp{
+    background-color: blue;
+    padding: 0.7rem;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 1rem;    
+    cursor: pointer;
+}
+
+.changetemp:hover{
+    background-color: darkblue;
+}
+
+.changetemp:active{
+    background-color: darkblue;
+    transform: scale(0.95);
+}
+
