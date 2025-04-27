@@ -1,0 +1,26 @@
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color: grey;
+    color: white;
+    padding: 20px;
+    position: fixed;
+}
+
+.sidebar h2{
+    color: khaki;        
+}
+
+.sidebar ul{
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li{
+    margin: 15px 0;
+}
+
+.sidebar a{
+    color: aliceblue;
+    text-decoration: none;
+}

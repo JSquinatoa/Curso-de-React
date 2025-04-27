@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.app-container{
+    display: flex;
+}
+
+.main-contain{
+    margin-left: 260px;
+    padding: 20px;
+    flex-wrap: 1;
+}
+
