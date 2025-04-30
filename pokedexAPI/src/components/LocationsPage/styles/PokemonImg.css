@@ -1,0 +1,22 @@
+.pokemon__img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.pokemon__img__wrapper {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.img__placeholder {
+    width: 60px;
+    height: 60px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+}
+

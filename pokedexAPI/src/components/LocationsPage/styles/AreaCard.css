@@ -1,0 +1,15 @@
+.container__img__area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px;
+}
+
+.area__id__colum {
+    min-width: 250px;
+}
+
+.pokemons__colum {
+    width: 100%;
+}

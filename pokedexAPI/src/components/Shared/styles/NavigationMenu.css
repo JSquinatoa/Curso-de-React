@@ -1,0 +1,20 @@
+.nav__bar{
+    background-color: red;
+    border-radius: 0 0 50px 50px;
+}
+
+.nav__menu{
+    display: flex;
+    padding: 10px 25px;
+    justify-content: space-evenly;
+}
+.nav__menu__item{
+    color: white;
+    font-weight: 1000;    
+    cursor: pointer;
+    transition: scale 100ms ease-in-out;
+}
+
+.nav__menu__item:hover{
+    scale: 1.1;
+}

@@ -1,0 +1,211 @@
+.pokemon__inof__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.card__info{
+    width: min(800px, 100%);
+    margin-top: 240px;
+    box-shadow: 0 2px 5px #0c0c0c34;
+    border-radius: 10px;
+}
+
+.header__card{
+    width: 100%;
+    height: 120px;
+    position: relative;
+    border-radius: 10px 10px 0 0;
+    display: flex;
+    justify-content: space-between;
+    background: var(--header-gradient);
+}
+
+.preview__next__pokemonpage__info{
+    width: 30px;
+    border: none;
+    background-color: #0c0c0c22;
+    color: white;
+    font-size: 18px;
+    border-radius: 10px 0 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pokemon__img{
+    width: min(250px, 60%);
+    position: absolute;
+    bottom: -6px;
+    left: 50%;
+}
+
+.body__card__info{
+    padding: 20px;
+    background-color: white;
+    position: relative;
+    border-radius: 0 0 10px 10px;
+}
+
+.general__card__info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon__info__hr{
+    border: none;
+    border-top: 1px solid #0c0c0c22;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.pokemon__card__name{
+    font-size: 32px;
+    top: 87px;
+    text-transform: capitalize;
+}
+
+.pokemon__card__hw{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.pokemon__hw__item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.pokemon__hw__label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.container__types__habilities{
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.types__habilities__item{
+    text-align: center;
+}
+
+.pokemon__type__label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.pokemon__habilities__label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.values__types__habilities{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.type__list__item{
+    text-transform: capitalize;
+    padding: 5px;
+    font-weight: 600;
+    border: 1px solid black;
+    background: var(--header-gradient);
+}
+
+.stats__container{
+    padding-left: 2em;
+}
+
+.poke_hr{
+    margin-bottom: 25px;
+}
+.stats__title{
+    top: 0;
+    left: -1px;
+    padding: 5px 10px;
+    background-color: white;
+}
+
+.container__stats__info{
+    padding-left: 2em;
+}
+
+.stats__info{
+    margin-bottom: 15px;
+}
+
+.header__stat__info{
+    display: flex;
+    justify-content: space-between;    
+}
+
+.stat__info__label{
+    text-transform: capitalize;
+}
+
+.progress__bar__status{
+    width: 100%;
+    height: 25px;
+    background-color: black;
+}
+
+::-webkit-progress-value{
+    background: var(--header-gradient);
+}
+::-webkit-progress-bar{
+    background-color: beige;
+}
+
+.container__movements{
+    width: min(800px, 100%);
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px black;
+    position: absolute;
+}
+
+.movements__hr{
+    margin-top: 17px;
+    margin-bottom: 40px;
+}
+
+.movements__titlle{
+    font-size: 32px;
+}
+
+.movements__name__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 15px 20px;
+
+}
+
+.move__name{
+    width: 100%;
+    border-radius: 35px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #e5e5e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+    color: black;
+
+}
+
+
